@@ -12,5 +12,6 @@ void	ft_hide(void);
 void	ft_lwr_case(char *str);
 int	ft_is_tried(char *str, char letter);
 void	ft_sort_alpha(char *str);
+void	ft_draw(int life);
 
 #endif

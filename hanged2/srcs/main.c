@@ -23,6 +23,7 @@ int	main(void)
 	while (ft_game_over(wd, wtf) != 1 && life > 0)
 	{
 		ft_hide();
+		ft_draw(life);
 		ft_putstr("Il te reste ");
 		ft_putnbr(life);
 		ft_putstr(" vies\n");
@@ -47,6 +48,7 @@ int	main(void)
 	if (life == 0)
 	{
 		ft_hide();
+		ft_draw(life);
 		ft_putstr("		PERDU !\n\n\n");
 		ft_putstr("	Le mot mystere etait ==>	");
 		ft_putstr(wd);
