@@ -13,7 +13,6 @@ int	main(void)
 
 	while(ft_wd_is_good(wd) != 1)
 	{
-		ft_wd_is_good(wd);
 		wd = ft_get_wd();
 	}
 	ft_lwr_case(wd);
